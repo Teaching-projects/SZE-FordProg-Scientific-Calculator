@@ -109,3 +109,8 @@
 	  >>>> abs(-33) * 2
 	  33
 	  66
+# Felhasznált források
+	PLY (Python Lex-Yacc) David M. Beazley - https://www.dabeaz.com/ply/ply.html
+	Make your Own Calculator in Python - https://youtu.be/Hh49BXmHxX8 
+	Make Your Own Programming Language - https://youtu.be/LDDRn2f9fUk
+	Getting Started with Pyparsing - https://learning.oreilly.com/library/view/getting-started-with/9780596514235/
