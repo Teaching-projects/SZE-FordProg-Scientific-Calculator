@@ -26,10 +26,8 @@ def acos(s):
     return cosh
 
 def atan(s):
-    if acos(s)==0:
-        return p_error_arc(s)
-    else:
-        return asin(s)/acos(s)
+    tanh = math.atan(s)
+    return tanh
 
 
 tokens=['INT','FLOAT','PLUS','MINUS','MULTIPLY','DIVIDE','LPAREN','RPAREN','SIN','COS','TAN','ASIN','ACOS','ATAN','LOG2','LOG','LOG10','POW','COMMA','SQRT','ABS']
